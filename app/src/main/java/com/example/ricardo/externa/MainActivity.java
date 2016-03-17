@@ -14,8 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 public void inserir(View view){
     Intent intent=new Intent(this,InsertActivity.class);
     startActivity(intent);
 }
+    public void editar(View view){
+        Intent intent=new Intent(this,EditActivity.class);
+        startActivity(intent);
+    }
 }
